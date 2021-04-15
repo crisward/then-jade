@@ -13,10 +13,9 @@
     "with": "~5.1.1"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "~3.1.2",
-    "uglify-js": "2.6.0",
     "coffee-script": "~1.7.1",
+    "gethub": "~1.0.2",
+    "gnode": "0.0.6",
     "jstransformer-cdata": "0.0.3",
     "jstransformer-coffee-script": "0.0.2",
     "jstransformer-less": "^1.0.0",
@@ -25,9 +24,10 @@
     "jstransformer-verbatim": "0.0.2",
     "less": "~1.6.3",
     "marked": "~0.3.1",
-    "stylus": "~0.42.2",
-    "gnode": "0.0.6",
-    "gethub": "~1.0.2"
+    "mocha": "*",
+    "should": "~3.1.2",
+    "stylus": "^0.54.8",
+    "uglify-js": "2.6.0"
   },
   "scripts": {
     "test": "node test/download-jade-tests && mocha -R spec"
